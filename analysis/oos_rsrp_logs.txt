@@ -1,0 +1,1860 @@
+17:23:57.143451	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 682
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 682
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 35A5A4A0
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E0ADD
+         Cell Frame Boundary Timing = 0FA4839BDCDCC65C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -72.758 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -75.758 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.344 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.164 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -75.758 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.344 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.164 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        6820
+            BseBeamMetric {
+               BSE Beam Metric =      -75.758 dBm
+            }
+            Cell Timing =             04B185EB
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.164 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       15.727 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -72.758 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =     -96.875 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -75.758 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.164 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -75.758 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.164 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:23:59.705131	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 2
+         System Frame Number = 938
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 938
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 75A5A4A0
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E14DF
+         Cell Frame Boundary Timing = 0FA4839980AF06AC
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -72.992 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -75.992 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.344 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 16.859 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -75.992 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.344 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 16.859 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9382
+            BseBeamMetric {
+               BSE Beam Metric =      -75.992 dBm
+            }
+            Cell Timing =             0E1185E9
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       16.859 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       16.156 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -72.992 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =     -96.727 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -75.992 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       16.859 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -75.992 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       16.859 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:02.263435	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 170
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 170
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 75A5A4A0
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E1EDD
+         Cell Frame Boundary Timing = 0FA4839980AF06AC
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -72.891 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -75.891 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.430 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 15.969 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -75.891 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.430 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 15.969 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        1700
+            BseBeamMetric {
+               BSE Beam Metric =      -75.891 dBm
+            }
+            Cell Timing =             0E1185E9
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       15.961 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       15.094 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -72.891 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =     -97.016 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -75.891 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       15.961 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -75.891 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       15.969 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:04.823434	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 426
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 426
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 75A5A4A0
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E28DD
+         Cell Frame Boundary Timing = 0FA4839980AF06AC
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -72.992 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -75.992 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.344 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.352 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -75.992 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.344 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.352 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        4260
+            BseBeamMetric {
+               BSE Beam Metric =      -75.992 dBm
+            }
+            Cell Timing =             0E1185E9
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.359 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       14.594 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -72.992 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =     -96.875 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -75.992 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.359 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -75.992 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.352 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:07.383431	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 682
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 682
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 75A5A4A0
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E32DD
+         Cell Frame Boundary Timing = 0FA4839980AF06AC
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -72.750 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -75.750 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.328 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.133 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -75.750 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.328 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.133 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        6820
+            BseBeamMetric {
+               BSE Beam Metric =      -75.750 dBm
+            }
+            Cell Timing =             0E1185E9
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.133 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       16.234 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -72.750 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =     -96.844 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -75.750 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.133 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -75.750 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.133 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:09.943430	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 938
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 938
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 75A5A4A0
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3CDD
+         Cell Frame Boundary Timing = 0FA4839980AF06AC
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -72.766 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -75.766 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.367 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.047 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -75.766 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.367 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.047 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9380
+            BseBeamMetric {
+               BSE Beam Metric =      -75.766 dBm
+            }
+            Cell Timing =             0E1185E9
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.047 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       14.805 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -72.766 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =     -97.211 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -75.766 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.047 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -75.766 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.047 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.344300	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 1
+         System Frame Number = 978
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 978
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3E6D
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.125 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.125 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.391 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.305 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.125 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.391 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.305 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9780
+            BseBeamMetric {
+               BSE Beam Metric =      -76.164 dBm
+            }
+            Cell Timing =             0ECD05E4
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.328 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       11.461 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.164 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.641 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.164 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.328 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.125 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.305 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.364013	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 1
+         System Frame Number = 980
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 980
+      Serving SSB Per BWP = { 1, 255, 255, 255, 255 }
+      Active BWP Index = 0
+      Configured BWP Bitmask = 1
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3E81
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.133 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.133 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.391 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.273 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.133 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.391 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.273 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9800
+            BseBeamMetric {
+               BSE Beam Metric =      -76.211 dBm
+            }
+            Cell Timing =             0ECD05E4
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.039 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       11.844 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.211 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.641 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.211 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.039 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.133 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.273 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.444005	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 1
+         System Frame Number = 988
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 988
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3ED1
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.164 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.164 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.391 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.063 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.164 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.391 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.063 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9880
+            BseBeamMetric {
+               BSE Beam Metric =      -76.195 dBm
+            }
+            Cell Timing =             0ECD05E4
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       16.789 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       10.336 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.195 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.633 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.195 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       16.789 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.164 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.063 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.463744	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 990
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 990
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3EE5
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.156 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.156 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.391 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.070 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.156 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.391 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.070 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9900
+            BseBeamMetric {
+               BSE Beam Metric =      -76.078 dBm
+            }
+            Cell Timing =             0ECD05E4
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.164 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       10.828 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.078 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.688 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.078 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.164 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.156 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.070 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.483791	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 992
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 992
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3EF9
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.156 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.156 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.391 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.109 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.156 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.391 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.109 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9920
+            BseBeamMetric {
+               BSE Beam Metric =      -76.133 dBm
+            }
+            Cell Timing =             0ECD05EC
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.438 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       10.617 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.133 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.594 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.133 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.438 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.156 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.109 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.503869	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 0
+         SubFrame Number = 1
+         System Frame Number = 994
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 994
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3F0D
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.141 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.141 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.383 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 17.156 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.141 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.383 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 17.156 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =        9940
+            BseBeamMetric {
+               BSE Beam Metric =      -76.031 dBm
+            }
+            Cell Timing =             0ECD05EC
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       17.570 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       11.742 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.031 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.477 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.031 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       17.570 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.141 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       17.156 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.584248	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 1
+         System Frame Number = 1002
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 1002
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3F5D
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.156 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.156 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.383 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 16.609 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.156 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.383 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 16.609 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =       10020
+            BseBeamMetric {
+               BSE Beam Metric =      -76.180 dBm
+            }
+            Cell Timing =             0ECD05EC
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       15.914 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       11.492 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.180 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.398 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.180 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       15.914 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.156 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       16.609 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.604036	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 1
+         System Frame Number = 1004
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 1004
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3F71
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.172 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.172 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.383 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 16.641 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.172 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.383 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 16.641 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =       10040
+            BseBeamMetric {
+               BSE Beam Metric =      -76.266 dBm
+            }
+            Cell Timing =             0ECD05EC
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       16.922 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       11.914 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.266 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.586 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.266 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       16.922 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.172 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       16.641 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
+17:24:10.704102	[0xB974]	NR5G ML1 Searcher Measurement Database Update
+Ml1Version {
+   Major.Minor Version = 3
+   7
+}
+Version 0x30007 {
+   Cells {
+      System Time {
+         Slot Number = 1
+         SubFrame Number = 1
+         System Frame Number = 1014
+         SCS = 30KHZ
+      }
+      Raster Freq = 504990
+      CC ID = 0
+      Cell Index = 0
+      Num Cells = 1
+      Serving Cell Index = SERVING CELL
+      Num Beams = 1
+      Serving Beam SSB Index = 1
+      Tech Type = SUB6
+      Client Type = INTRA
+      L1 Filter Coeff = 0.500
+      CAFI Motion State = DISABLED
+      Log Minimized = FALSE
+      PCI = 655
+      PBCH SFN = 1014
+      Serving SSB Per BWP = { 1, 1, 1, 255, 255 }
+      Active BWP Index = 1
+      Configured BWP Bitmask = 7
+      Serving SSB Bitmask = 64
+      MIB Payload = 7BA5A420
+      Cell Barred = notBarred
+      Msmts {
+         Time Of Latest Meas = 00000000000E3FD5
+         Cell Frame Boundary Timing = 0FA483944267963C
+         FilRxPathBrsrpL3 {
+            Filtered L3 RX0 BRSRP = -73.219 dBm
+         }
+         CellQualityRsrp {
+            Cell Quality RSRP = -76.219 dBm
+         }
+         CellQualityRsrq {
+            Cell Quality RSRQ = -10.375 dBm
+         }
+         CellQualitySnr {
+            Cell Quality SNR = 16.750 dB
+         }
+         L2NrCellQualityRsrp {
+            L2NR Cell Quality RSRP = NA
+         }
+         L2NrCellQualityRsrq {
+            L2NR Cell Quality RSRQ = NA
+         }
+         L2NrCellQualitySnr {
+            L2NR Cell Quality SNR = NA
+         }
+         CellQualityPoRsrp {
+            Cell Quality PO RSRP = -76.219 dBm
+         }
+         CellQualityPoRsrq {
+            Cell Quality PO RSRQ = -10.375 dBm
+         }
+         CellQualityPoSnr {
+            Cell Quality PO SNR = 16.750 dB
+         }
+      }
+      Detected Beams[0] {
+         SSB Index =     1
+         Aging Counter =       0
+         VS RX Beam Id 1 =      0
+         VS RX Beam Id 2 =      0
+         RX Beam Info[0] {
+            Index = 0
+            RxBeamId[0] {
+               RX Beam Id =     NA
+            }
+            RxBeamId[1] {
+               RX Beam Id =     NA
+            }
+            Meas SFN Time =       10140
+            BseBeamMetric {
+               BSE Beam Metric =      -76.273 dBm
+            }
+            Cell Timing =             0ECD05EC
+            FilteredRxPathSnr[0] {
+               Filtered RX Path SNR =       16.883 dB
+            }
+            FilteredRxPathSnr[1] {
+               Filtered RX Path SNR =       13.328 dB
+            }
+            FilteredRxPathRsrp[0] {
+               Filtered RX Path RSRP =     -73.273 dBm
+            }
+            FilteredRxPathRsrp[1] {
+               Filtered RX Path RSRP =    -103.391 dBm
+            }
+            Sub Array Rx0 =     0
+            Best PO beam =    0
+         }
+         TX Beam Metrics {
+            FilteredTxBeamRsrp {
+               Filtered TX Beam RSRP =      -76.273 dBm
+            }
+            CollapsedSnr {
+               Collapsed SNR =       16.883 dB
+            }
+            FilteredTxBeamRsrpL3 {
+               Filtered TX Beam RSRP L3 =      -76.219 dBm
+            }
+            L2NrFilteredTxBeamRsrpL3 {
+               L2NR Filtered TX Beam RSRP L3 =           NA
+            }
+            L3FilteredSnr {
+               L3 Filtered SNR =       16.750 dB
+            }
+            L2NrL3FilteredSnr {
+               L2NR L3 Filtered SNR =           NA
+            }
+         }
+      }
+   }
+}
+
