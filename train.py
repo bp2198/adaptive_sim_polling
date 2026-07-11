@@ -1,3 +1,6 @@
+import argparse
+from pathlib import Path
+
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
@@ -6,51 +9,81 @@ from rl.ddqn_agent import DDQNAgent
 
 EPISODES = 1000
 
-env = PollingEnv()
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--algorithm",
+        choices=("dqn", "ddqn"),
+        default="ddqn",
+    )
+    args = parser.parse_args()
 
-state_dim = len(env.reset())
-action_dim = 5
+    results_dir = Path("results")
+    models_dir = results_dir / "models"
+    plots_dir = results_dir / "plots"
 
-agent = DDQNAgent(state_dim, action_dim)
+    for directory in (results_dir, models_dir, plots_dir):
+        directory.mkdir(parents=True, exist_ok=True)
 
-epsilon = 1.0
-epsilon_min = 0.05
-epsilon_decay = 0.995
+    env = PollingEnv()
 
-reward_history = []
+    state_dim = len(env.reset())
+    action_dim = 5
 
-for ep in range(EPISODES):
+    agent = DDQNAgent(state_dim, action_dim, algorithm=args.algorithm)
 
-    state = env.reset()
-    done = False
-    total_reward = 0
+    epsilon = 1.0
+    epsilon_min = 0.05
+    epsilon_decay = 0.995
 
-    while not done:
+    reward_history = []
 
-        action = agent.select_action(state, epsilon)
+    for ep in range(EPISODES):
 
-        next_state, reward, done = env.step(action)
+        state = env.reset()
+        done = False
+        total_reward = 0
 
-        agent.replay_buffer.push(
-            (state, action, reward, next_state, done)
-        )
+        while not done:
 
-        agent.train_step()
+            action = agent.select_action(state, epsilon)
 
-        state = next_state
-        total_reward += reward
+            next_state, reward, done = env.step(action)
 
-    epsilon = max(epsilon_min, epsilon * epsilon_decay)
+            agent.replay_buffer.push(
+                (state, action, reward, next_state, done)
+            )
 
-    reward_history.append(total_reward)
+            agent.train_step()
 
-    if ep % 50 == 0:
-        print(f"Episode {ep}, Reward {total_reward}")
+            state = next_state
+            total_reward += reward
 
-plt.plot(reward_history)
-plt.title("Training Reward Curve")
-plt.xlabel("Episode")
-plt.ylabel("Reward")
-plt.show()
+        epsilon = max(epsilon_min, epsilon * epsilon_decay)
 
-torch.save(agent.q_net.state_dict(), "trained_model.pth")
+        reward_history.append(total_reward)
+
+        if ep % 50 == 0:
+            print(
+                f"Episode {ep}, Reward {total_reward}, Epsilon {epsilon:.4f}"
+            )
+
+    plt.plot(reward_history)
+    plt.title("Training Reward Curve")
+    plt.xlabel("Episode")
+    plt.ylabel("Reward")
+    plt.savefig(plots_dir / f"{args.algorithm}_reward_curve.png")
+    plt.show()
+
+    np.save(
+        results_dir / f"{args.algorithm}_reward_history.npy",
+        np.asarray(reward_history),
+    )
+    torch.save(
+        agent.q_net.state_dict(),
+        models_dir / f"{args.algorithm}_trained_model.pth",
+    )
+
+
+if __name__ == "__main__":
+    main()

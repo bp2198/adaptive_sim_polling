@@ -1,10 +1,22 @@
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-.venv/
+
+# Virtual environments
 venv/
-env/
+.venv/
+
+# Experiment outputs
+results/
+*.pth
+*.npy
+*.npz
 *.log
-.env
+
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
