@@ -10,7 +10,7 @@ class DDQNAgent:
 
     def __init__(self, state_dim, action_dim, algorithm="ddqn"):
 
-        self.device = torch.device("cpu")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         self.state_dim = state_dim
         self.action_dim = action_dim
