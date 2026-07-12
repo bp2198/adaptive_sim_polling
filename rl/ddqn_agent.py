@@ -2,22 +2,32 @@ import torch
 import torch.optim as optim
 import numpy as np
 
-from rl.q_network import QNetwork
+from rl.q_network import DuelingQNetwork, QNetwork
 from rl.replay_buffer import PrioritizedReplayBuffer
 
 
 class DDQNAgent:
 
-    def __init__(self, state_dim, action_dim, algorithm="ddqn"):
+    def __init__(
+        self,
+        state_dim,
+        action_dim,
+        algorithm="ddqn",
+        network_type="standard",
+    ):
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         self.state_dim = state_dim
         self.action_dim = action_dim
         self.algorithm = algorithm.lower()
+        self.network_type = network_type.lower()
 
-        self.q_net = QNetwork(state_dim, action_dim).to(self.device)
-        self.target_net = QNetwork(state_dim, action_dim).to(self.device)
+        network_class = (
+            DuelingQNetwork if self.network_type == "dueling" else QNetwork
+        )
+        self.q_net = network_class(state_dim, action_dim).to(self.device)
+        self.target_net = network_class(state_dim, action_dim).to(self.device)
 
         self.target_net.load_state_dict(self.q_net.state_dict())
 
