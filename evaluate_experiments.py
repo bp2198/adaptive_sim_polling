@@ -47,6 +47,32 @@ def main():
 
     print(dataframe)
 
+    aggregated_dataframe = (
+        dataframe.groupby(["Algorithm", "Network"], as_index=False)
+        .agg(
+            NumberOfRuns=("Seed", "count"),
+            MeanTrainingTime=("TrainingTime", "mean"),
+            StdTrainingTime=("TrainingTime", "std"),
+            MeanFinalReward=("FinalReward", "mean"),
+            StdFinalReward=("FinalReward", "std"),
+            MeanAverageRewardLast100=("AverageRewardLast100", "mean"),
+            StdAverageRewardLast100=("AverageRewardLast100", "std"),
+            BestAverageRewardLast100=("AverageRewardLast100", "max"),
+            WorstAverageRewardLast100=("AverageRewardLast100", "min"),
+            MeanReward=("MeanReward", "mean"),
+        )
+        .sort_values("MeanAverageRewardLast100", ascending=False)
+        .reset_index(drop=True)
+    )
+    floating_columns = aggregated_dataframe.select_dtypes(
+        include="float"
+    ).columns
+    aggregated_dataframe[floating_columns] = aggregated_dataframe[
+        floating_columns
+    ].round(3)
+
+    print(aggregated_dataframe)
+
     dataframe.to_csv(comparisons_dir / "summary.csv", index=False)
     with (comparisons_dir / "summary.md").open("w") as file:
         file.write("| " + " | ".join(columns) + " |\n")
@@ -55,6 +81,38 @@ def main():
             values = [str(value).replace("|", "\\|") for value in row]
             file.write("| " + " | ".join(values) + " |\n")
         file.write("\n")
+
+    aggregated_summary_path = comparisons_dir / "aggregated_summary.csv"
+    aggregated_dataframe.to_csv(aggregated_summary_path, index=False)
+    with (comparisons_dir / "aggregated_summary.md").open("w") as file:
+        file.write(
+            "| "
+            + " | ".join(aggregated_dataframe.columns)
+            + " |\n"
+        )
+        file.write(
+            "|" + "|".join("---" for _ in aggregated_dataframe.columns) + "|\n"
+        )
+        for row in aggregated_dataframe.itertuples(index=False, name=None):
+            values = [str(value).replace("|", "\\|") for value in row]
+            file.write("| " + " | ".join(values) + " |\n")
+        file.write("\n")
+
+    if not aggregated_dataframe.empty:
+        best_configuration = aggregated_dataframe.iloc[0]
+        print("\n" + "=" * 34)
+        print("Best Performing Configuration")
+        print(f"Algorithm: {best_configuration['Algorithm']}")
+        print(f"Network: {best_configuration['Network']}")
+        print(
+            "Mean Avg Reward: "
+            f"{best_configuration['MeanAverageRewardLast100']:.3f}"
+        )
+        print(
+            "Std Dev: "
+            f"{best_configuration['StdAverageRewardLast100']:.3f}"
+        )
+        print("=" * 34)
 
     plt.figure(figsize=(10, 6))
     for reward_path in sorted(Path("results").glob("*_reward.npy")):
