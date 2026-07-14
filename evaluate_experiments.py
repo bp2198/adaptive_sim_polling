@@ -44,6 +44,9 @@ def main():
         "MeanReward",
     ]
     dataframe = pd.DataFrame(records, columns=columns)
+    dataframe = dataframe[dataframe["Episodes"] == 1000].reset_index(
+        drop=True
+    )
 
     print(dataframe)
 
@@ -115,16 +118,22 @@ def main():
         print("=" * 34)
 
     plt.figure(figsize=(10, 6))
-    for reward_path in sorted(Path("results").glob("*_reward.npy")):
+    for row in dataframe.itertuples(index=False):
+        reward_path = (
+            Path("results")
+            / f"{row.Algorithm}_{row.Network}_seed{row.Seed}_reward.npy"
+        )
+
+        if not reward_path.exists():
+            continue
+
         rewards = np.load(reward_path)
-        experiment_name = reward_path.stem
         episodes = np.arange(1, len(rewards) + 1)
 
         plt.plot(
             episodes,
             rewards,
-            alpha=0.3,
-            label="_nolegend_",
+            alpha=0.25,
         )
 
         if len(rewards) >= 50:
@@ -137,7 +146,7 @@ def main():
                 np.arange(50, len(rewards) + 1),
                 moving_average,
                 linewidth=2,
-                label=experiment_name,
+                label=f"{row.Algorithm}-{row.Network}-Seed{row.Seed}",
             )
 
     plt.title("Reward Comparison")
